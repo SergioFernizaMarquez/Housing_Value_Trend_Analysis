@@ -8,11 +8,17 @@ This project investigates how gentrification affects home values across neighbor
 ## Research Question
 How does gentrification measured via rapid income increases impact median housing prices in urban neighborhoods?
 
+---
+
 ## Background & Prior Work
 A survey of urban economics and sociology literature highlights mixed findings on gentrification’s impact: some studies find displacement pressure drives prices up significantly; others observe modest price shifts once baseline affordability is accounted for. We build on these by combining granular market trackibg data with census income metrics.
 
+---
+
 ## Hypothesis
 Neighborhoods with higher rates of income growth over a defined period will exhibit significantly larger increases in median home values, controlling for baseline market conditions.
+
+---
 
 ## Data
 
@@ -37,6 +43,8 @@ Neighborhoods with higher rates of income growth over a defined period will exhi
    - Calculated percent change in income per neighborhood  
    - Rolling averages of prices  
 
+---
+
 ## Methods & Strategies
 
 ### Exploratory Data Analysis (EDA)
@@ -54,21 +62,13 @@ Neighborhoods with higher rates of income growth over a defined period will exhi
 - **Residual analysis** to verify model assumptions.
 - **Sensitivity checks** by varying income growth thresholds.
 
+---
+
 ## Results
 - Neighborhoods in the top quartile of income growth saw, on average, a 25 % greater increase in median home values than those in the bottom quartile.  
 - Regression coefficient for income growth was 0.8 (p < 0.01), indicating a strong positive relationship even after controlling for market volume.
 
-## Ethics & Privacy
-1. **Bias & Representation**  
-   - Acknowledge that data sources may underrepresent informal submarkets.  
-2. **Recognizing Bias**  
-   - Checked demographic coverage; flagged potential gaps.  
-3. **Reducing Bias**  
-   - Limited analyses to neighborhoods meeting minimum transaction counts.  
-4. **Data Protection**  
-   - No personally identifiable information was used.  
-5. **Presentation**  
-   - Aggregated results to neighborhood level; used anonymized identifiers.
+---
 
 ## Conclusion
 Our findings support the hypothesis: rapid income increases within neighborhoods are associated with substantial housing‐price escalations. Policy implications include the need for targeted affordability measures in rapidly changing districts.
