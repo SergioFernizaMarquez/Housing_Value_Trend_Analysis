@@ -1,7 +1,7 @@
 # COGS 108 – The Implications Gentrification Has on Home Values
 
 ## Abstract
-This project investigates how gentrification affects home values across neighborhoods. We blend public housing‐price data with demographic and income trends to ask whether—and to what extent—areas experiencing rapid income growth see disproportionately large increases in real estate prices.
+This project investigates how gentrification affects home values across neighborhoods. We blend public housing price data with demographic and income trends to ask whether and to what extent areas experiencing rapid income growth see disproportionately large increases in real estate prices.
 
 ## Table of Contents
 1. [Research Question](#research-question)  
@@ -26,7 +26,7 @@ This project investigates how gentrification affects home values across neighbor
 ---
 
 ## Research Question
-How does gentrification—measured via rapid income increases—impact median housing prices in urban neighborhoods?
+How does gentrification measured via rapid income increases impact median housing prices in urban neighborhoods?
 
 ## Background & Prior Work
 A survey of urban economics and sociology literature highlights mixed findings on gentrification’s impact: some studies find displacement pressure drives prices up significantly; others observe modest price shifts once baseline affordability is accounted for. We build on these by combining granular market‐tracker data with census‐style income metrics.
