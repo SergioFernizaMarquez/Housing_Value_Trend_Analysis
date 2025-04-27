@@ -90,11 +90,5 @@ Neighborhoods with higher rates of income growth over a defined period will exhi
 5. **Presentation**  
    - Aggregated results to neighborhood level; used anonymized identifiers.
 
-## Discussion & Conclusion
+## Conclusion
 Our findings support the hypothesis: rapid income increases within neighborhoods are associated with substantial housing‐price escalations. Policy implications include the need for targeted affordability measures in rapidly changing districts.
-
-## Team Contributions
-- **Alice Smith** – Data cleaning & feature engineering  
-- **Bob Johnson** – EDA visualizations & statistical modeling  
-- **Carol Lee** – Literature review & ethical framework  
-- **David Kim** – Report writing & final synthesis  
