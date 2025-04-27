@@ -29,7 +29,7 @@ This project investigates how gentrification affects home values across neighbor
 How does gentrification measured via rapid income increases impact median housing prices in urban neighborhoods?
 
 ## Background & Prior Work
-A survey of urban economics and sociology literature highlights mixed findings on gentrification’s impact: some studies find displacement pressure drives prices up significantly; others observe modest price shifts once baseline affordability is accounted for. We build on these by combining granular market‐tracker data with census‐style income metrics.
+A survey of urban economics and sociology literature highlights mixed findings on gentrification’s impact: some studies find displacement pressure drives prices up significantly; others observe modest price shifts once baseline affordability is accounted for. We build on these by combining granular market trackibg data with census income metrics.
 
 ## Hypothesis
 Neighborhoods with higher rates of income growth over a defined period will exhibit significantly larger increases in median home values, controlling for baseline market conditions.
@@ -43,7 +43,7 @@ Neighborhoods with higher rates of income growth over a defined period will exhi
   • Joined & cleaned version: filtered date ranges, handled missing values, standardized columns.
 
 ### neighborhood_market_tracker.tsv
-1. **Import** via pandas (read_csv with `sep='\t'`).  
+1. **Import** via pandas.  
 2. **Initial inspection**: shape, dtypes, missing‐value counts.  
 3. **Filtering** to our study period and geographic scope.
 
@@ -70,13 +70,13 @@ Neighborhoods with higher rates of income growth over a defined period will exhi
    - Scatterplots with regression overlays; compute Pearson’s *r*.
 
 ### Statistical Techniques
-- **Linear regression** to quantify the impact of income growth (independent variable) on price change (dependent variable), controlling for baseline price and transaction volume.  
-- **Residual analysis** to verify model assumptions.  
-- **Sensitivity checks** by varying income‐growth thresholds.
+- **Linear regression** to quantify the impact of income growth on price change, controlling for baseline price and transaction volume.  
+- **Residual analysis** to verify model assumptions.
+- **Sensitivity checks** by varying income growth thresholds.
 
 ## Results
 - Neighborhoods in the top quartile of income growth saw, on average, a 25 % greater increase in median home values than those in the bottom quartile.  
-- Regression coefficient for income growth was **0.8** (p < 0.01), indicating a strong positive relationship even after controlling for market volume.
+- Regression coefficient for income growth was 0.8 (p < 0.01), indicating a strong positive relationship even after controlling for market volume.
 
 ## Ethics & Privacy
 1. **Bias & Representation**  
