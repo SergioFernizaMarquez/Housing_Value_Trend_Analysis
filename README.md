@@ -1,27 +1,7 @@
 # The Implications Gentrification Has on Home Values
 
-## Abstract
+## Overview
 This project investigates how gentrification affects home values across neighborhoods. We blend public housing price data with demographic and income trends to ask whether and to what extent areas experiencing rapid income growth see disproportionately large increases in real estate prices.
-
-## Table of Contents
-1. [Research Question](#research-question)  
-2. [Background & Prior Work](#background--prior-work)  
-3. [Hypothesis](#hypothesis)  
-4. [Data](#data)  
-   - [Data Overview](#data-overview)  
-   - [neighborhood_market_tracker.tsv](#neighborhood_market_trackertsv)  
-   - [housing_data_cleaned.csv](#housing_data_cleanedcsv)  
-5. [Methods & Strategies](#methods--strategies)  
-   - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)  
-     1. Distribution of Housing Prices  
-     2. Outlier Detection  
-     3. Time Series Analysis of Prices  
-     4. Correlation of Income Growth & Prices  
-   - [Statistical Techniques](#statistical-techniques)  
-6. [Results](#results)  
-7. [Ethics & Privacy](#ethics--privacy)  
-8. [Discussion & Conclusion](#discussion--conclusion)  
-9. [Team Contributions](#team-contributions)  
 
 ---
 
