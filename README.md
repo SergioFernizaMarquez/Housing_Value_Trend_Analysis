@@ -5,21 +5,6 @@ This project investigates how gentrification affects home values across neighbor
 
 ---
 
-## Research Question
-How does gentrification measured via rapid income increases impact median housing prices in urban neighborhoods?
-
----
-
-## Background & Prior Work
-A survey of urban economics and sociology literature highlights mixed findings on gentrification’s impact: some studies find displacement pressure drives prices up significantly; others observe modest price shifts once baseline affordability is accounted for. We build on these by combining granular market trackibg data with census income metrics.
-
----
-
-## Hypothesis
-Neighborhoods with higher rates of income growth over a defined period will exhibit significantly larger increases in median home values, controlling for baseline market conditions.
-
----
-
 ## Data
 
 ### Data Overview
